@@ -1,0 +1,16 @@
+%% CSC485H1/2501H:Computational Linguistics, Fall 2018%% 
+bot sub [pp,p,np].          
+
+pp sub [].          
+p sub [].
+np sub [].
+
+with ---> p.
+sam ---> np.
+
+srule rule
+pp
+===>
+cat> p,
+cat> np.
+
